@@ -1,0 +1,11 @@
+body section#player #bar .adjust {
+  width: 200px;
+}
+
+.radiotubebutton {
+  top: 22px;
+  cursor: pointer;
+  background-image: url("chrome-extension://__MSG_@@extension_id__/images/YouTube-social-icon_dark_24px.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}

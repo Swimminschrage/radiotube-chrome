@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+contentscript_credentials.js
+
+.git/*
+.idea/*
+node_modules/*
+app/bower_components/*
