@@ -1,7 +1,5 @@
 'use strict';
 
-var port = chrome.runtime.connect({name: "youtubeRequest"});
-
 function _canBeAttachedToSlacker() {
   return $('.dummy li').length > 0;
 }

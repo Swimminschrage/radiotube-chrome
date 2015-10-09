@@ -1,9 +1,11 @@
+var port = chrome.runtime.connect({name: "youtubeRequest"});
+
 function _radioTubeClick(event) {
   $.get("https://www.googleapis.com/youtube/v3/search", {
     part: "snippet",
     q: _getCurrentArtist() + " " + _getCurrentSong(),
     type: "video",
-    key: "AIzaSyD-VyMZwDGHt0PyI3i5yzmH0eEZgj1z1_0"
+    key: YOUTUBE_SECRET_KEY
   }, _youtubeSearchSuccess);
 }
 
